@@ -2,6 +2,8 @@
 
 Hazelcast Persistence for Camunda (Community Extension)
 
+![Example Process][img-logo]
+
 ## Getting Started
 
 In order to get started with Camunda and Hazelcast, you need to setup a Java Project with both Camunda and Hazelcast. If you use Apache Maven this would include the following dependencies:
@@ -80,7 +82,9 @@ repositoryService.createDeployment()
 ```
 
 In the code example above, the BPMN process is created using the fluent dsl. Resulting process
-consists of a start event, a message receive task and an end event.
+consists of a start event, a message receive task and an end event:
+
+![Example Process][img-example1]
 
 This process can be started like this:
 
@@ -94,4 +98,5 @@ ProcessInstance pi = runtimeService.startProcessInstanceByKey("testProcess");
 runtimeService.signal(pi.getId());
 ```
 
-
+[img-logo]: https://raw.githubusercontent.com/camunda/camunda-engine-hazelcast/master/docs/camundahazelcast.png
+[img-example1]: https://raw.githubusercontent.com/camunda/camunda-engine-hazelcast/master/docs/example1.png
