@@ -14,7 +14,7 @@ In order to get started with Camunda and Hazelcast, you need to setup a Java Pro
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-bom</artifactId>
-      <version>${version.camunda}</version>
+      <version>7.4.0-alpha1</version>
       <type>pom</type>
       <scope>import</scope>
     </dependency>
