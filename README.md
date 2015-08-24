@@ -98,5 +98,8 @@ ProcessInstance pi = runtimeService.startProcessInstanceByKey("testProcess");
 runtimeService.signal(pi.getId());
 ```
 
+Read the [Camunda Documentation][docs].
+
 [img-logo]: https://raw.githubusercontent.com/camunda/camunda-engine-hazelcast/master/docs/camundahazelcast.png
 [img-example1]: https://raw.githubusercontent.com/camunda/camunda-engine-hazelcast/master/docs/example1.png
+[docs]: http://docs.camunda.org
