@@ -6,34 +6,14 @@ Hazelcast Persistence for Camunda (Community Extension)
 
 ## Getting Started
 
-In order to get started with Camunda and Hazelcast, you need to setup a Java Project with both Camunda and Hazelcast. If you use Apache Maven this would include the following dependencies:
+In order to get started with Camunda and Hazelcast, you need to setup a Java Project which has the `camunda-engine-hazelcast` in the classpath. If you use Apache Maven this would include the following dependencies:
 
 ```xml
-<dependencyManagement>
-  <dependencies>
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bom</artifactId>
-      <version>7.4.0-alpha1</version>
-      <type>pom</type>
-      <scope>import</scope>
-    </dependency>
-  </dependencies>
-</dependencyManagement>
-
 <dependencies>
   <dependency>
     <groupId>org.camunda.bpm</groupId>
-    <artifactId>camunda-engine</artifactId>
-  </dependency>
-  <dependency>
-    <groupId>com.hazelcast</groupId>
-    <artifactId>hazelcast-all</artifactId>
-    <version>3.2.1</version>
-  </dependency>
-  <dependency>
-    <groupId>com.fasterxml.uuid</groupId>
-    <artifactId>java-uuid-generator</artifactId>
+    <artifactId>camunda-engine-hazelcast</artifactId>
+    <version>1.0.0-alpha1</version>
   </dependency>
 </dependencies>
 ```
