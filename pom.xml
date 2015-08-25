@@ -113,4 +113,11 @@
     </profile>
   </profiles>
   
+  <scm>
+    <url>https://github.com/camunda/camunda-engine-hazelcast</url>
+    <connection>scm:git:git@github.com:camunda/camunda-engine-hazelcast.git</connection>
+    <developerConnection>scm:git:git@github.com:camunda/camunda-engine-hazelcast.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  
 </project>
